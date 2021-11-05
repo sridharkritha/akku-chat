@@ -32,7 +32,7 @@ app.get('/:room', (req, res) => {
 });
 
 server.listen(3000, () => {
-	console.log("Server is started on the port: " + server.address().port);
+	console.log("Server is started on the port number: " + server.address().port);
 });
 
 io.on('connection', socket => {
