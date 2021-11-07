@@ -1,5 +1,5 @@
-// const host = 'http://localhost:3000';
-const host = 'https://akku-chat.herokuapp.com/';
+const host = 'http://localhost:3000';
+// const host = 'https://akku-chat.herokuapp.com/';
 const socket = io(host);
 const messageContainer = document.getElementById('message-container');
 const roomContainer = document.getElementById('room-container');
